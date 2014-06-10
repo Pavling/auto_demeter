@@ -6,8 +6,8 @@ require 'auto_demeter/version'
 Gem::Specification.new do |spec|
   spec.name          = "auto_demeter"
   spec.version       = AutoDemeter::VERSION
-  spec.authors       = ["Paul McKibbin"]
-  spec.email         = ["pmckibbin@gmail.com"]
+  spec.authors       = ["Paul McKibbin", "Michael Pavling"]
+  spec.email         = ["pmckibbin@gmail.com", "pavling@gmail.com"]
   spec.description   = %q{Create automated methods for all children or parents to allow a request to be handled more easily than defining a long chain}
   spec.summary       = %q{Automated demeter methods}
   spec.homepage      = ""
